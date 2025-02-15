@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static int ContarDigitos(int num)
+    {
+        return Math.Abs(num).ToString().Length;
+    }
+
+    static void Main()
+    {
+        int[] numeros = new int[10];
+        List<int> posiciones = new List<int>();
+
+        // Leer 10 números enteros
+        Console.WriteLine("Ingrese 10 números enteros:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.Write($"Número {i + 1}: ");
+            numeros[i] = int.Parse(Console.ReadLine());
+
+            // Verificar si tiene más de 3 dígitos
+            if (ContarDigitos(numeros[i]) > 3)
+            {
+                posiciones.Add(i);
+            }
+        }
+
+        // Mostrar el resultado
+        if (posiciones.Count > 0)
+        {
+            Console.WriteLine("Los números con más de 3 dígitos se encuentran en las posiciones: " + string.Join(", ", posiciones));
+        }
+        else
+        {
+            Console.WriteLine("No se ingresaron números con más de 3 dígitos.");
+        }
+    }
+}
