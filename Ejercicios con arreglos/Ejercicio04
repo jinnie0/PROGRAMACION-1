@@ -1,0 +1,47 @@
+using System;
+
+class Program
+{
+    static bool EsPrimo(int num)
+    {
+        if (num < 2) return false;
+        for (int i = 2; i * i <= num; i++)
+        {
+            if (num % i == 0) return false;
+        }
+        return true;
+    }
+
+    static bool ComienzaConDigitoPrimo(int num)
+    {
+        int primerDigito = Math.Abs(num);
+        while (primerDigito >= 10)
+        {
+            primerDigito /= 10;
+        }
+        return EsPrimo(primerDigito);
+    }
+
+    static void Main()
+    {
+        int[] numeros = new int[10];
+        int contador = 0;
+
+        // Leer 10 números enteros
+        Console.WriteLine("Ingrese 10 números enteros:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.Write($"Número {i + 1}: ");
+            numeros[i] = int.Parse(Console.ReadLine());
+
+            // Contar cuántos comienzan con un dígito primo
+            if (ComienzaConDigitoPrimo(numeros[i]))
+            {
+                contador++;
+            }
+        }
+
+        // Mostrar el resultado
+        Console.WriteLine($"Cantidad de números que comienzan con un dígito primo: {contador}");
+    }
+}
