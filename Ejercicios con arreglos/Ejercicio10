@@ -1,0 +1,34 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numeros = new int[10];
+
+        // Leer 10 números enteros
+        Console.WriteLine("Ingrese 10 números enteros:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.Write($"Número {i + 1}: ");
+            numeros[i] = int.Parse(Console.ReadLine());
+        }
+
+        // Leer el número a evaluar
+        Console.Write("Ingrese un número para verificar sus divisores exactos en el arreglo: ");
+        int numeroEvaluado = int.Parse(Console.ReadLine());
+        int contadorDivisores = 0;
+
+        // Contar cuántos números del arreglo son divisores exactos
+        foreach (int num in numeros)
+        {
+            if (num != 0 && numeroEvaluado % num == 0)
+            {
+                contadorDivisores++;
+            }
+        }
+
+        // Mostrar el resultado
+        Console.WriteLine($"El número {numeroEvaluado} tiene {contadorDivisores} divisores exactos en el arreglo.");
+    }
+}
