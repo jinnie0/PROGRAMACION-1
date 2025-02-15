@@ -1,1 +1,36 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numeros = new int[10];
+        int maxPar = int.MinValue;
+        int posicionMaxPar = -1;
+
+        Console.WriteLine("Ingrese 10 números enteros:");
+        for (int i = 0; i < 10; i++)
+        {
+            Console.Write($"Número {i + 1}: ");
+            numeros[i] = int.Parse(Console.ReadLine());
+
+            // Verificar si es par y mayor que el actual máximo par
+            if (numeros[i] % 2 == 0 && numeros[i] > maxPar)
+            {
+                maxPar = numeros[i];
+                posicionMaxPar = i;
+            }
+        }
+
+        // Mostrar el resultado
+        if (posicionMaxPar != -1)
+        {
+            Console.WriteLine($"El mayor número par es {maxPar} y está en la posición {posicionMaxPar}.");
+        }
+        else
+        {
+            Console.WriteLine("No se ingresaron números pares.");
+        }
+    }
+}
 
