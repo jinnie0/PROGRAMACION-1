@@ -1,0 +1,16 @@
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.Form1.resources
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.csproj.GenerateResource.cache
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.AssemblyInfoInputs.cache
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.AssemblyInfo.cs
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.csproj.CoreCompileInputs.cache
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\bin\Debug\net8.0-windows\SistemaNotasEscolares.exe
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\bin\Debug\net8.0-windows\SistemaNotasEscolares.deps.json
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\bin\Debug\net8.0-windows\SistemaNotasEscolares.runtimeconfig.json
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\bin\Debug\net8.0-windows\SistemaNotasEscolares.dll
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\bin\Debug\net8.0-windows\SistemaNotasEscolares.pdb
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.dll
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\refint\SistemaNotasEscolares.dll
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.pdb
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\SistemaNotasEscolares.genruntimeconfig.cache
+C:\Users\jinni\source\repos\SistemaNotasEscolares\SistemaNotasEscolares\obj\Debug\net8.0-windows\ref\SistemaNotasEscolares.dll
